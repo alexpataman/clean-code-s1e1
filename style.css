@@ -44,6 +44,10 @@ button {
   margin: 0 auto 0;
 }
 
+.add-task {
+  margin: 16px 0;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -54,7 +58,9 @@ button {
   display: flex;
 }
 
-.incomplete-tasks {
+.incomplete-tasks, 
+.completed-tasks
+{
   margin:0;
   padding: 0px;
 }
@@ -133,6 +139,9 @@ button {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
 }
 
 .task-item > .input-text {
